@@ -28,3 +28,14 @@ You can then import this package into your projects with
 ```go
 import "github.com/aclements/go-rabin/rabin"
 ```
+
+Demos
+-----
+
+There is a small program in `cmd/cdsplit` that divides an input file
+into content-defined chunks. It's only intended as a demo, but can be
+installed using
+
+```sh
+go get github.com/aclements/go-rabin/cmd/cdsplit
+```
